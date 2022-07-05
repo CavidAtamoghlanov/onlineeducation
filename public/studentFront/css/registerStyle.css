@@ -1,0 +1,31 @@
+#registerModal {
+    background: #276E6B40;
+    backdrop-filter: blur(2px);
+}
+
+#registerModal>div>div>div>form {
+    width: 100% !important;
+    background-color: #0257BF;
+    padding-top: 35px;
+    padding-left: 3%;
+}
+
+#registerModal>div>div>div>form>* {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+#registerModal>div>div>div>form>input {
+    width: 95%;
+    font-size: 15px;
+    outline: none;
+}
+
+#registerModal>div>div>div>form>button {
+    outline: none;
+    font-size: 18px;
+    color: #192828;
+    background-color: #FCDB66;
+}

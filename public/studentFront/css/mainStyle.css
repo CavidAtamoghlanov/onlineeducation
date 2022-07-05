@@ -1,0 +1,224 @@
+main {
+    background: url("../img/vector.png");
+    background-repeat: no-repeat;
+    background-size: 100% 50vh;
+    background-position: bottom;
+}
+
+main>* {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700 !important;
+}
+
+main> :nth-child(1)>h1 {
+    width: 55% !important;
+    margin-bottom: 0;
+    font-size: 117px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #1E4242 !important;
+}
+
+main> :nth-child(1)>section {
+    width: 45%;
+}
+
+main> :nth-child(1)>section>section {
+    width: 70%;
+    height: 100%;
+    right: 0 !important;
+    background-color: #1E4242;
+    border-radius: 2%;
+}
+
+main> :nth-child(1)>section>section>section>img {
+    top: -20%;
+    left: -10%;
+    border-radius: 2%;
+}
+
+main> :nth-child(1)>section>section>section>p {
+    bottom: 0;
+    left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 0.8vw;
+}
+
+main>section>h1 {
+    color: #276E6B !important;
+    font-weight: 700;
+}
+
+main> :nth-child(2)>div {
+    width: 20.5rem;
+    filter: drop-shadow(13px 15px 48px rgba(0, 0, 0, 0.25));
+}
+
+main> :nth-child(3)>div {
+    width: 20.5rem;
+    filter: drop-shadow(13px 13px 48px rgba(0, 0, 0, 0.25));
+}
+
+.card>div>div>p {
+    font-size: 13px !important;
+    letter-spacing: 0.5px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600 !important;
+}
+
+#cardTransition {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700 !important;
+    background-color: #FCDB66 !important;
+    outline: #FCDB66 !important;
+    font-size: 18px;
+}
+
+main> :nth-child(2)>div> :nth-child(2) {
+    width: 100%;
+    display: block !important;
+    position: absolute !important;
+    top: 50% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transform: translateY(-50%);
+    z-index: 5;
+}
+
+main> :nth-child(2)>div> :nth-child(2)>button {
+    position: absolute !important;
+    margin: 0 !important;
+    vertical-align: top;
+    background-color: #FCDB66 !important;
+}
+
+main> :nth-child(2)>div> :nth-child(2)>button>i {
+    font-size: 30px;
+    padding: 10px 13px;
+}
+
+main> :nth-child(2)>div> :nth-child(2)> :nth-child(1) {
+    left: -20px !important;
+}
+
+main> :nth-child(2)>div> :nth-child(2)> :nth-child(2) {
+    right: -20px !important;
+}
+
+main> :nth-child(3)>div> :nth-child(2) {
+    width: 100%;
+    display: block !important;
+    position: absolute !important;
+    top: 50% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transform: translateY(-50%);
+    z-index: 5;
+}
+
+main> :nth-child(3)>div> :nth-child(2)>button {
+    position: absolute !important;
+    margin: 0 !important;
+    vertical-align: top;
+    background-color: #FCDB66 !important;
+}
+
+main> :nth-child(3)>div> :nth-child(2)>button>i {
+    font-size: 30px;
+    padding: 10px 13px;
+}
+
+main> :nth-child(3)>div> :nth-child(2)> :nth-child(1) {
+    left: -20px !important;
+}
+
+main> :nth-child(3)>div> :nth-child(2)> :nth-child(2) {
+    right: -20px !important;
+}
+
+@media (max-width: 1399px) {
+    main> :nth-child(1)>h1 {
+        font-size: 90px;
+    }
+}
+
+@media (max-width: 991px) {
+    main> :nth-child(1)>h1 {
+        font-size: 60px;
+    }
+    main> :nth-child(1)>section>section>section>p {
+        bottom: -5px;
+    }
+}
+
+@media (max-width: 767px) {
+    main> :nth-child(1)>h1 {
+        font-size: 50px;
+    }
+    main> :nth-child(1)>section>section>section>p {
+        bottom: -5px;
+    }
+}
+
+@media (max-width: 553px) {
+    main> :nth-child(1)>h1 {
+        font-size: 40px;
+    }
+    main> :nth-child(1)>section>section>section>p {
+        bottom: -5px;
+    }
+}
+
+@media (max-width: 447px) {
+    main> :nth-child(1)>h1 {
+        font-size: 35px;
+    }
+    main> :nth-child(1)>section>section>section>p {
+        bottom: -5px;
+    }
+}
+
+@media (max-width: 394px) {
+    main> :nth-child(1)>h1 {
+        font-size: 30px;
+    }
+    main> :nth-child(1)>section>section>section>p {
+        bottom: -5px;
+    }
+}
+
+@media (max-width: 394px) {
+    main> :nth-child(1)>h1 {
+        font-size: 25px;
+    }
+    main> :nth-child(1)>section>section>section>p {
+        bottom: -10px;
+        left: 10px;
+    }
+}
+
+@media (max-width: 288px) {
+    main> :nth-child(1)>h1 {
+        font-size: 20px;
+    }
+    main> :nth-child(1)>section>section>section>p {
+        bottom: -10px;
+        left: 10px;
+    }
+}
+
+@media (max-width: 235px) {
+    main> :nth-child(1)>h1 {
+        font-size: 17px;
+    }
+    main> :nth-child(1)>section>section>section>p {
+        bottom: -10px;
+        left: 10px;
+    }
+}

@@ -1,0 +1,48 @@
+* {
+    user-select: none;
+}
+
+#logoImg {
+    height: 40px;
+}
+
+#navbarItems {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+.active {
+    color: #FCDB66 !important;
+}
+
+.text-primary:hover {
+    color: #FCDB66 !important;
+}
+
+#userProfileBtnPanel {
+    background-color: #FCDB66 !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    box-sizing: border-box !important;
+}
+
+#userProfileBtImg {
+    width: 33px !important;
+}
+
+#userProfileBtUsername {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+#notIcon {
+    width: 16px !important;
+}

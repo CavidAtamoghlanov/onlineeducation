@@ -1,0 +1,52 @@
+footer{
+    background-color: #0257BF;
+}
+footer > :nth-child(2) > i > span{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+} 
+footer > div > div > *{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+#fFacebookTransition:hover{
+    color: #4267B2 !important;
+}
+#fInstagramTransition:hover{
+    color: purple !important;
+}
+#fYoutubeTransition:hover{
+    color: #FF0000 !important;
+}
+#fLinkedinTransition:hover{
+    color: #0e76a8  !important;
+}
+
+
+
+@media (max-width: 991px) {
+    footer > div > div {
+        width: 100% !important;
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+        margin-top: 0% !important;
+        margin-bottom: 0% !important;
+        text-align: center;
+        justify-content: center ;
+    }
+    footer > div> :nth-child(1){
+        margin-right: 0 !important;
+    }
+    footer > div> :nth-child(2){
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    footer > div> :nth-child(2) > ul > :nth-child(2){
+        justify-content: center !important;
+    }
+    footer > div> :nth-child(3){
+        margin-left: 0 !important;
+    }
+}

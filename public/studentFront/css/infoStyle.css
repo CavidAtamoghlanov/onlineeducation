@@ -1,0 +1,56 @@
+main > section > *{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+main > section > h1{
+    color: #276E6B !important;
+}
+#imgBgPl{
+    height: 400px !important;
+}
+#imgBgPanel{
+    right: 0;
+    width: 70% !important;
+    height: 400px !important;
+    background-color: #276E6B !important;    
+}
+#imgBgPanel > section > img{
+    top: -80px;
+    left: -20px;
+}
+#imgBgPanel > section > p{
+    width: 90%;
+    left: 10px !important;
+    font-size: 1rem;
+}
+main > section > section > p{
+    font-family: 'Open Sans' !important;
+    font-weight: 400 !important;
+    letter-spacing: 1px;
+    font-size: 1.3rem !important;
+}
+
+@media (max-width: 991px) {
+    #imgBgPl{
+        height: 300px !important;
+    }
+    #imgBgPanel{
+        height: 300px !important;
+    }
+    #imgBgPanel > section > img{
+        top: -60px !important;
+    }
+    #imgBgPanel > section > p{
+        font-size: 0.5rem !important;
+    }
+    main > section > section > p{
+        font-size: 0.8rem !important;
+    }
+}
+
+@media (max-width: 540px) {
+    #imgBgPanel > section > p{
+        font-size: 0.4rem !important;
+    }
+}

@@ -1,0 +1,170 @@
+main>* {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+main>section>p {
+    font-size: 0.8rem;
+}
+
+.statisticsRow {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.progress>#f1b1 {
+    padding-right: 1%;
+}
+
+.progress>#f1b2 {
+    padding-left: 1%;
+}
+
+.progress-bar {
+    font-size: 14px;
+}
+
+.c_prog>a {
+    margin-left: 2%;
+}
+
+.c_prog>section {
+    height: 40px !important;
+}
+
+#cardTransition {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700 !important;
+    background-color: #FCDB66 !important;
+    outline: #FCDB66 !important;
+    font-size: 18px;
+}
+
+.card {
+    background-color: #F5FFFF !important;
+}
+
+main> :nth-child(2)>div> :nth-child(2) {
+    width: 100%;
+    display: block !important;
+    position: absolute !important;
+    top: 50% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transform: translateY(-50%);
+    z-index: 5;
+}
+
+main> :nth-child(2)>div> :nth-child(2)>button {
+    position: absolute !important;
+    margin: 0 !important;
+    vertical-align: top;
+    background-color: #FCDB66 !important;
+}
+
+main> :nth-child(2)>div> :nth-child(2)>button>i {
+    font-size: 30px;
+    padding: 10px 13px;
+}
+
+main> :nth-child(2)>div> :nth-child(2)> :nth-child(1) {
+    left: -20px !important;
+}
+
+main> :nth-child(2)>div> :nth-child(2)> :nth-child(2) {
+    right: -20px !important;
+}
+
+main>#sectionBottomUserInfo>img {
+    width: 80px !important;
+    height: 80px !important;
+}
+
+main>#sectionBottomUserInfo>img:hover {
+    cursor: pointer;
+}
+
+main>#sectionBottomUserInfo> :nth-child(2) {
+    width: 15% !important;
+}
+
+main>#sectionBottomUserInfo> :nth-child(2)>input[type="text"] {
+    outline: none;
+    cursor: context-menu;
+}
+
+main>#sectionBottomUserInfo> :nth-child(2)>i {
+    top: 10px;
+    font-size: 0.7rem;
+    right: 0;
+    cursor: pointer;
+}
+
+main>#sectionBottomUserInfo> :nth-child(3) {
+    width: 35% !important;
+}
+
+main>#sectionBottomUserInfo> :nth-child(3)>section> :nth-child(2) {
+    color: #276E6B !important;
+}
+
+main>#sectionBottomUserInfo> :nth-child(3)>a {
+    color: #276E6B !important;
+}
+
+main>#sectionBottomUserInfo> :nth-child(3)>a:hover {
+    cursor: pointer;
+}
+
+main>#sectionBottomUserInfo> :nth-child(4) {
+    width: 25% !important;
+}
+
+main>#sectionBottomUserInfo> :nth-child(4)>section> :nth-child(2) {
+    color: #276E6B !important;
+}
+
+main>#sectionBottomUserInfo> :nth-child(4)>a {
+    color: #276E6B !important;
+}
+
+main>#sectionBottomUserInfo> :nth-child(4)>a:hover {
+    cursor: pointer;
+}
+
+.cstactive {
+    background-color: #FCDB66;
+}
+
+.cstactiveFront {
+    color: #FCDB66;
+}
+
+@media (max-width: 991px) {
+    main>#sectionBottomUserInfo {
+        flex-direction: column !important;
+    }
+    main>#sectionBottomUserInfo> :nth-child(3) {
+        width: 75% !important;
+    }
+    main>#sectionBottomUserInfo> :nth-child(4) {
+        width: 75% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .progress {
+        width: 100% !important;
+    }
+    .c_prog>a {
+        width: 100% !important;
+        margin-top: 3% !important;
+        margin-left: 0 !important;
+    }
+    main>section>p {
+        font-size: 0.6rem !important;
+    }
+}

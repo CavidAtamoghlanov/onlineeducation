@@ -1,0 +1,14 @@
+#logoImg{ 
+    height: 40px;
+}
+#navbarItems{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+.navbar{
+    background-color: #276E6B !important;
+}
+.active{
+    color: #FCDB66 !important;
+}

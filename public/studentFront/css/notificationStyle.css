@@ -1,0 +1,47 @@
+#notiPanel{
+    background: #276E6B40;
+    backdrop-filter: blur(2px);
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+#notiPanel > section {
+    z-index: 10;
+    background-color: red;
+}
+#notiPanel > section > form{
+    top:  -90px;
+    right: 5.2%;
+    width: 210px !important;
+    background-color: #F5FFFF;
+    transform: translateX(23%);
+}
+
+#notiPanel > section > form > *{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+.left{
+    width: 72% !important;
+}
+.right{
+    width: 27% !important;
+}
+
+.left > :nth-child(1) {
+    font-size: 1.2vw;
+}
+
+.left > :nth-child(2) {
+    font-weight: 300 !important;
+    font-size: 0.70vw;
+}
+.right > a{
+    width: 90% !important;
+    background-color: #0257BF !important;
+    top: 50%;
+    transform: translateY(-30%);
+    margin-left: 7% !important;
+    font-size: 0.9vw;
+}

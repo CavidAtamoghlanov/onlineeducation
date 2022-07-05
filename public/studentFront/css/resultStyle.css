@@ -1,0 +1,51 @@
+#resultPanel{
+    background: #276E6B40;
+    backdrop-filter: blur(2px);
+    z-index: 10;
+}
+#resultPanel > section {
+    z-index: 10;
+}
+#resultPanel > section > section{
+    width: 65% !important;
+    transform: translateX(28%);
+
+    padding-left: 3%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+}
+#resultPanel > section > section > h1{
+    color: #276E6B !important;
+}
+#resultPanel > section > section > section > p{
+    color: #276E6B !important;
+}
+#resultPanel > section > section > i{
+    top: 6%;
+    right: 3%;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    #resultPanel > section > section > section{
+        flex-direction: column !important;
+    }
+
+    #resultPanel > section > section > section > p{
+        font-size: 0.8rem !important;
+    }
+
+    #resultPanel > section > section > section > :nth-child(2){
+        width: 50% !important;
+        text-align: center;
+    }
+    #resultPanel > section > section > section > :nth-child(3){
+        width: 50% !important;
+        text-align: center;
+    }
+    #resultPanel > section > section > p{
+        font-size: 0.8rem !important;
+    }
+}

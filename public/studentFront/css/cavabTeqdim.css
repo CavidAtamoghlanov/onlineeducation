@@ -1,0 +1,54 @@
+main > section{
+    background-color: #0257BF !important;
+}
+main > section > *{
+    font-family: 'Open Sans', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+}
+main > section > :nth-child(2){
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+}
+main > section > form{
+    flex-direction: row;
+}
+main > section > form > :nth-child(1){
+    width: 60% !important;
+}
+main > section > form > :nth-child(2){
+    width: 40% !important;
+}
+.cinpt > *{
+    outline: none;
+}
+.cinpt > section{
+    font-weight: 700;
+    color: #276E6B !important;
+}
+.cinpt > section > span{
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.dgt{
+    background-color: #FCDB66 !important;
+}
+
+@media (max-width: 767px) {
+    main > section > form{
+        flex-direction: column;
+    }
+    main > section > form > :nth-child(1){
+        width: 100% !important;
+    }
+    main > section > form > :nth-child(2){
+        width: 100% !important;
+        height: 60px;
+    }
+    main > section > form > :nth-child(2) > input[type="submit"]{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

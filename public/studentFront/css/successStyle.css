@@ -1,0 +1,26 @@
+#successPanel{
+    background: #276E6B40;
+    backdrop-filter: blur(2px);
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+#successPanel > section {
+    z-index: 10;
+}
+#successPanel > section > section{
+    top:  0;
+    left: 0;
+    width: 50% !important;
+    background-color: #F5FFFF;
+    transform: translateX(50%);
+}
+
+#successPanel > section > section > *{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+}
+#successPanel > section > section > svg{
+
+}

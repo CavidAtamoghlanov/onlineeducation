@@ -1,0 +1,209 @@
+main>section {
+    flex-direction: row;
+}
+
+main>section>* {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700 !important;
+}
+
+main>section>#firstSection {
+    width: 25% !important;
+}
+
+.mscs {
+    color: #276E6B !important;
+}
+
+.mscs>i {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    top: 10% !important;
+    right: 0 !important;
+}
+
+.summaryInSummary>i {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    top: 10% !important;
+    right: 0 !important;
+}
+
+.cnt>p {
+    max-width: 200px;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+}
+
+main>section> :nth-child(2) {
+    width: 74% !important;
+    margin-left: 1% !important;
+}
+
+main>section> :nth-child(2)> :nth-child(1) {
+    color: #276E6B !important;
+}
+
+main>section> :nth-child(2)>embed {
+    height: 60vh !important;
+    outline: none;
+}
+
+main>section> :nth-child(2)> :nth-child(4)>section>p {
+    color: #276E6B !important;
+}
+
+main>section> :nth-child(2)> :nth-child(4)>section>center {
+    right: 28% !important;
+    transform: translateX(-28%) !important;
+    top: 0 !important;
+    font-size: 22px !important;
+    z-index: 5 !important;
+}
+
+main>section> :nth-child(2)> :nth-child(4)>section>center>i {
+    color: #276E6B !important;
+}
+
+main>section> :nth-child(2)> :nth-child(4)>section>a {
+    color: #276E6B !important;
+    right: 0 !important;
+    cursor: pointer !important;
+}
+
+main>section> :nth-child(2)> :nth-child(5) {
+    font-weight: 700 !important;
+}
+
+main>section> :nth-child(2)> :nth-child(6) {
+    font-size: 15.7px;
+    letter-spacing: 1px;
+}
+
+main>section> :nth-child(2)> :nth-child(7) {
+    font-weight: 700 !important;
+}
+
+#headerr>center img {
+    width: 110px !important;
+}
+
+#headerr>a {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-weight: 700 !important;
+    font-size: 18px;
+}
+
+.cstactiveForCollapse {
+    background-color: #FCDB66;
+    border: 1px solid transparent;
+}
+
+.cstactiveForCollapse:hover {
+    border-color: #0257BF;
+    cursor: pointer;
+}
+
+.cstactive {
+    background-color: #FCDB66;
+}
+
+@media (max-width: 991px) {
+    main>section {
+        flex-direction: column;
+    }
+    main>section>#firstSection {
+        width: 100% !important;
+    }
+    main>section> :nth-child(2) {
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    main>section> :nth-child(2)>h1 {
+        font-size: 1.7rem !important;
+    }
+    main>section> :nth-child(2)> :nth-child(2) {
+        font-size: 1rem !important;
+    }
+    main>section> :nth-child(2)> :nth-child(6) {
+        font-size: 14px;
+    }
+    .trn {
+        font-size: 0.9rem;
+    }
+    .cnt>p {
+        max-width: 610px;
+    }
+}
+
+@media (max-width: 767px) {
+    main>section> :nth-child(2)>h1 {
+        font-size: 1.1rem !important;
+    }
+    main>section> :nth-child(2)> :nth-child(2) {
+        font-size: 0.8rem !important;
+    }
+    .trn {
+        font-size: 0.55rem;
+    }
+    main>section> :nth-child(2)> :nth-child(4)>section>p {
+        font-size: 0.8rem !important;
+    }
+    main>section> :nth-child(2)> :nth-child(4)>section>center {
+        right: 30% !important;
+        top: -23% !important;
+        transform: translateX(-30%) !important;
+    }
+    main>section> :nth-child(2)> :nth-child(6) {
+        font-size: 12px;
+    }
+    .cnt>p {
+        max-width: 400px;
+    }
+    #headerr>center {
+        width: 100%;
+        display: block !important;
+    }
+    #headerr>img {
+        display: none;
+    }
+    #headerr>section {
+        width: 100% !important;
+        padding-bottom: 15% !important;
+    }
+    #headerr>section>* {
+        width: 100%;
+        text-align: center !important;
+    }
+    #headerr>a {
+        top: unset;
+        right: unset;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0 !important;
+    }
+}
+
+@media (max-width: 519px) {
+    main>section> :nth-child(2)> :nth-child(4)>section>p {
+        font-size: 0.5rem !important;
+    }
+    main>section> :nth-child(2)> :nth-child(4)>section>center {
+        display: none;
+    }
+    main>section> :nth-child(2)> :nth-child(4)>section>a {
+        width: 45% !important;
+    }
+    main>section> :nth-child(2)> :nth-child(6) {
+        font-size: 10px;
+    }
+    .cnt>p {
+        max-width: 200px;
+    }
+}

@@ -1,0 +1,47 @@
+* {
+    user-select: none;
+}
+
+#logoImg {
+    height: 40px;
+}
+
+#navbarItems {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.navbar {
+    background-color: #FFF !important;
+}
+
+.active {
+    color: #FCDB66 !important;
+}
+
+#userProfileBtnPanel {
+    width: 40% !important;
+}
+
+#userProfileBtnPanel> :nth-child(1) {
+    background-color: #0257BF !important;
+}
+
+#userProfileBtnPanel> :nth-child(2) {
+    background-color: #FCDB66 !important;
+    margin-left: 5%;
+}
+
+#userProfileBtnPanel>button {
+    width: 47.5% !important;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@media (max-width: 991px) {
+    #userProfileBtnPanel {
+        width: 100% !important;
+    }
+}
